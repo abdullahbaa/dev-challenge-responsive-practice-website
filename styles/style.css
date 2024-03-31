@@ -1,0 +1,31 @@
+.icons{
+    height: 30px;
+    width: 30px;
+    background-color: yellow;
+}
+.googlepic{
+    width: 100px;
+    height: 50px;
+    background-color: antiquewhite;
+}
+.metapic{
+    width: 100px;
+    height: 50px;
+    background-color: antiquewhite;
+}
+.toplist{
+    display: flex;
+}
+.lowest{
+    display: flex;
+}
+@media screen and (min-width:567px) and (max-width:992px) {
+    .container{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:567px) {
+    .container{
+        flex-direction: column;
+    }
+}
